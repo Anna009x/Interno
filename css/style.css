@@ -1,0 +1,134 @@
+:root {
+    --color-orange:#CDA274;
+    --color-text:#292F36;
+    --color-white:#FFF;
+    --color-light-black:#4D5053;
+    --color-background:#F4F0EC;
+    
+}
+
+body {
+    font-family:"Jost";
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    width: 177.0px;
+    height: 50.0px;
+} 
+
+.header-item-link {
+    color: var(--color-text);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.hero-title {
+    font-family: "DM Serif Display";
+    color: var(--color-text);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.section-hero {
+    width: 1440.0px;
+    height: 831.0px;
+}
+
+.hero-text {
+    color: var(--color-light-black);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.hero-btn {
+    width: 207.0px;
+    height: 71.0px;
+    color: var(--color-white);
+    background-color: var(--color-text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    border-radius: 18px;
+    border: none;
+}
+
+.services-title {
+    color: var(--color-text);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.services-text {
+    color: var(--color-light-black);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.services-link {
+    color: var(--color-light-black);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    text-align: center;
+    display: inline-block;
+}
+
+.company-info-title {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.company-info-text {
+    color: var(--color-light-black);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.company-info-item-text {
+    color: var(--color-light-black);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.company-info-btn {
+    width: 263.0px;
+    height: 71.0px;
+    border-radius: 18px;
+    color: var(--color-white);
+    background-color: var(--color-text);
+}
+
+.company-info-img {
+    width: 592.0px;
+    height: 635.0px;
+    border-radius: 0 326px 0 123px;
+    background: url() lightgray 50% / cover no-repeat;
+}
