@@ -2,9 +2,8 @@
     --color-orange:#CDA274;
     --color-text:#292F36;
     --color-white:#FFF;
-    --color-light-black:#4D5053;
+    --color-grey:#4D5053;
     --color-background:#F4F0EC;
-    
 }
 
 body {
@@ -41,10 +40,13 @@ body {
 .section-hero {
     width: 1440.0px;
     height: 831.0px;
+    background-image: url(../images/hero-bg.jpg);
+    border-radius: 0 0 0 290px;
+    background: url() lightgray 50% / cover no-repeat, 
 }
 
 .hero-text {
-    color: var(--color-light-black);
+    color: var(--color-grey);
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +77,7 @@ body {
 }
 
 .services-text {
-    color: var(--color-light-black);
+    color: var(--color-grey);
     text-align: center;
     font-size: 22px;
     font-style: normal;
@@ -84,7 +86,7 @@ body {
 }
 
 .services-link {
-    color: var(--color-light-black);
+    color: var(--color-grey);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -103,7 +105,7 @@ body {
 }
 
 .company-info-text {
-    color: var(--color-light-black);
+    color: var(--color-grey);
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -111,7 +113,7 @@ body {
 }
 
 .company-info-item-text {
-    color: var(--color-light-black);
+    color: var(--color-grey);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -124,6 +126,10 @@ body {
     border-radius: 18px;
     color: var(--color-white);
     background-color: var(--color-text);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;   
+    letter-spacing: 0.72px;
 }
 
 .company-info-img {
@@ -131,4 +137,237 @@ body {
     height: 635.0px;
     border-radius: 0 326px 0 123px;
     background: url() lightgray 50% / cover no-repeat;
+}
+
+.feedbacks {
+    background-color: var(--color-background);
+}
+
+.feedbacks-title {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.feedbacks-img {
+    width: 77.0px;
+    height: 77.0px;
+    border-radius: 100px;
+    background: url() lightgray 50% / cover no-repeat;
+}
+
+.feedbacks-subtitle {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.feedbacks-text {
+    color: var(--color-grey);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.22px;
+}
+
+.feedbacks-block-text {
+    color: var(--color-grey);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+}
+
+.feedbacks-block {
+    background-color: var(--color-white);
+    border-radius: 30px;
+}
+
+.projects-title {
+    color: var(--color-text);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+}
+
+.projects-text {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.projects-img {
+    width: 590.0px;
+    height: 661.0px;
+    border-radius: 0 80px 0 0;
+    background: url() lightgray 50% / cover no-repeat;
+}
+
+.projects-subtitle {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+}
+
+.projects-item-text {
+    color: var(--color-grey);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.blogs-title {
+    color: var(--color-text);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62.4px;
+    letter-spacing: 0.22px;
+}
+
+.blogs-text {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px; 
+}
+
+.blogs-img {
+    width: 345.0px;
+    height: 296.0px;
+    border-radius: 45px 45px 0 0;
+    background: url() lightgray 50% / cover no-repeat;
+}
+
+.blogs-subtitle {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+}
+
+.blogs-item-text {
+    color: var(--color-grey);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+}
+
+.connect-title {
+    color: var(--color-white);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0.22px;
+}
+
+.connect {
+    width: 1200.0px;
+    background-color: var(--color-text);
+}
+
+.connect-text {
+    color: var(--color-white);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.connect-btn {
+    color: var(--color-white);
+    background-color: var(--color-orange);
+    width: 241.0px;
+    height: 71.0px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.22px;
+}
+
+.numbers-section {
+    background-color: var(--color-background);
+}
+
+.numbers {
+    color: var(--color-orange);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;
+}
+
+.numbers-text {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
+}
+
+.footer-logo {
+    width: 177.0px;
+    height: 50.0px;
+}
+
+.footer-subtitle {
+    color: var(--color-text);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.5px;
+    letter-spacing: 0.22px;
+}
+
+.footer-text {
+    color: var(--color-grey);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
 }
