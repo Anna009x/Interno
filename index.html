@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Interno</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,6 @@
   </head>
   <body>
     <header class="header">
-      <section class="header-section">
         <div class="container">
           <a class="header-logo" href="#"
             ><img class="logo-img" src="./images/logo.png" alt="logo"
@@ -45,11 +44,10 @@
             </li>
           </ul>
         </div>
-      </section>
     </header>
     <main>
       <section class="section-hero">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-title">Let's Create Your Dream Interior</h1>
           <p class="hero-text">
             The world needs innovators and problem solvers who turn challenges
@@ -58,6 +56,7 @@
           <button class="hero-btn" type="button">Get Started</button>
         </div>
       </section>
+
       <section class="services">
         <div class="container">
           <ul class="services-list">
@@ -110,24 +109,28 @@
           <button class="company-info-btn" type="button">
             Get Free Estimate
           </button>
+          <div class="box-img">
           <img
             class="company-info-img"
             src="./images/hero-img.jpg"
             alt="Kitchen"
           />
+          </div>
         </div>
       </section>
 
       <section class="feedbacks">
-        <div class="container">
+        <div class="container feedbacks-bg">
           <h2 class="feedbacks-title">What the People Thinks About Interno</h2>
           <ul class="feedbacks-list">
             <li class="feedbacks-item">
+              <div class="box-feedbscks-img">
               <img
                 class="feedbacks-img"
-                src="./images/feedback-img(1).jpg"
+                src="./images/feedback-img-1.jpg"
                 alt="woman"
               />
+              </div>
               <div class="feedbacks-block">
                 <h3 class="feedbacks-subtitle">Lisa Clairton</h3>
                 <p class="feedbacks-block-text">New York, USA</p>
@@ -138,11 +141,13 @@
               </p>
             </li>
             <li class="feedbacks-item">
+              <div class="box-feedbscks-img">
               <img
                 class="feedbacks-img"
-                src="./images/feedback-img(2).jpg"
+                src="./images/feedback-img-2.jpg"
                 alt="man"
               />
+              </div>
               <div class="feedbacks-block">
                 <h3 class="feedbacks-subtitle">David Knight</h3>
                 <p class="feedbacks-block-text">Sydney, Australia</p>
@@ -153,11 +158,13 @@
               </p>
             </li>
             <li class="feedbacks-item">
+              <div class="box-feedbscks-img">
               <img
                 class="feedbacks-img"
-                src="./images/feedback-img(3).jpg"
+                src="./images/feedback-img-3.jpg"
                 alt="woman"
               />
+              </div>
               <div class="feedbacks-block">
                 <h3 class="feedbacks-subtitle">Lisa Clairton</h3>
                 <p class="feedbacks-block-text">Paris, France</p>
@@ -170,7 +177,18 @@
           </ul>
         </div>
       </section>
-      <!-- Пропущена секція brands -->
+
+       <section class="brands">
+        <div class="container">
+        <ul class="brands-list">
+          <li class="brands-item"><img class="brands-img" src="./images/IMAGE.jpg" alt="brands"></li>
+          <li class="brands-item"><img class="brands-img" src="./images/IMAGE (4).jpg" alt="brands"></li>
+          <li class="brands-item"><img class="brands-img" src="./images/IMAGE (1).jpg" alt="brands"></li>
+          <li class="brands-item"><img class="brands-img" src="./images/IMAGE (2).jpg" alt="brands"></li>
+          <li class="brands-item"><img class="brands-img" src="./images/IMAGE (3).jpg" alt="brands"></li>
+        </ul>
+        </div>
+       </section>
       <section class="projects">
         <div class="container">
           <h2 class="projects-title">Recent Projects</h2>
@@ -183,44 +201,49 @@
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/projects(1).jpg"
+                src="./images/projects-1.jpg"
                 alt="Bedroom"
               />
               <h3 class="projects-subtitle">Winery Dry Creek Building</h3>
               <p class="projects-item-text">Art Modern</p>
+              <button class="projects-btn" type="button"><img src="./images/projects-button.png" alt="button"></button>
             </li>
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/projects(2).jpg"
+                src="./images/projects-2.jpg"
                 alt="Bedroom"
               />
               <h3 class="projects-subtitle">Creative Workplace Design</h3>
               <p class="projects-item-text">Minimalist</p>
+              <button class="projects-btn" type="button"><img src="./images/projects-button.png" alt="button"></button>
             </li>
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/projects(3).jpg"
+                src="./images/projects-3.jpg"
                 alt="Bedroom"
               />
               <h3 class="projects-subtitle">Bedroom Interior Pot Work</h3>
               <p class="projects-item-text">Modern</p>
+              <button class="projects-btn" type="button"><img src="./images/projects-button.png" alt="button"></button>
             </li>
             <li class="projects-item">
               <img
                 class="projects-img"
-                src="./images/projects(4).jpg"
+                src="./images/projects-4.jpg"
                 alt="Bedroom"
               />
               <h3 class="projects-subtitle">Light Ambience Sepia Design</h3>
               <p class="projects-item-text">Scandinavian</p>
+              <button class="projects-btn" type="button"><img src="./images/projects-button.png" alt="button"></button>
             </li>
           </ul>
         </div>
       </section>
 
       <section class="numbers-section">
+        <div class="container">
         <ul class="numbers-list">
           <li class="numbers-item">
             <p class="numbers">12</p>
@@ -239,6 +262,7 @@
             <p class="numbers-text">Happy Customers</p>
           </li>
         </ul>
+        </div>
       </section>
       <section class="blogs">
         <div class="container">
@@ -251,7 +275,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(1).jpg"
+                src="./images/blogs-1.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -262,7 +286,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(2).jpg"
+                src="./images/blogs-2.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -273,7 +297,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(3).jpg"
+                src="./images/blogs-3.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -284,7 +308,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(4).jpg"
+                src="./images/blogs-4.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -295,7 +319,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(5).jpg"
+                src="./images/blogs-5.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -306,7 +330,7 @@
             <li class="blogs-item">
               <img
                 class="blogs-img"
-                src="./images/blogs(6).jpg"
+                src="./images/blogs-6.jpg"
                 alt="Designer room"
               />
               <h3 class="blogs-subtitle">
@@ -318,7 +342,7 @@
         </div>
       </section>
       <section class="connect">
-        <div class="container">
+        <div class="container connect-bg" >
           <h2 class="connect-title">Wanna join the interno?</h2>
           <p class="connect-text">Contact Us & Get a Free Consultation</p>
           <button class="connect-btn" type="button">Connect With us</button>

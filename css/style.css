@@ -15,10 +15,24 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+.logo-img {
+    margin-bottom: 12px;
+}
+
 .header-logo {
     width: 177.0px;
     height: 50.0px;
 } 
+
+.header-list {
+    margin: 0;
+    padding: 0;
+}
 
 .header-item-link {
     color: var(--color-text);
@@ -28,6 +42,19 @@ body {
     letter-spacing: 0.4px;
 }
 
+.section-hero {
+    height: 831.0px;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 290px;
+    background: url(../images/hero-bg.jpg), url() lightgray 50%, cover, no-repeat;
+}   
+
+.hero-container {
+    padding: 195px 720px 250px 0;
+}
+
 .hero-title {
     font-family: "DM Serif Display";
     color: var(--color-text);
@@ -35,14 +62,7 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
-}
-
-.section-hero {
-    width: 1440.0px;
-    height: 831.0px;
-    background-image: url(../images/hero-bg.jpg);
-    border-radius: 0 0 0 290px;
-    background: url() lightgray 50% / cover no-repeat, 
+    margin-bottom: 19px;
 }
 
 .hero-text {
@@ -51,6 +71,7 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    margin-bottom: 35px;
 }
 
 .hero-btn {
@@ -64,6 +85,11 @@ body {
     letter-spacing: 0.72px;
     border-radius: 18px;
     border: none;
+}
+
+.services {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .services-title {
@@ -93,6 +119,10 @@ body {
     letter-spacing: 0.36px;
     text-align: center;
     display: inline-block;
+}
+
+.company-info {
+    margin-bottom: 140.39px;
 }
 
 .company-info-title {
@@ -140,6 +170,10 @@ body {
 }
 
 .feedbacks {
+    margin-bottom: 139.61px;
+}
+
+.feedbacks-bg {
     background-color: var(--color-background);
 }
 
@@ -190,6 +224,14 @@ body {
     border-radius: 30px;
 }
 
+.brands {
+    margin-bottom: 100px;
+}
+
+.projects {
+    margin-bottom: 79.89px;
+}
+
 .projects-title {
     color: var(--color-text);
     text-align: center;
@@ -235,6 +277,14 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+}
+
+.numbers-section {
+    margin-bottom: 130.02px;
+}
+
+.blogs {
+    margin-bottom: 100.2px;
 }
 
 .blogs-title {
@@ -284,6 +334,11 @@ body {
     letter-spacing: 0.22px;
 }
 
+.connect {
+    margin-bottom: 79.8px;
+    height: 414.0px;
+}
+
 .connect-title {
     color: var(--color-white);
     text-align: center;
@@ -295,9 +350,10 @@ body {
     letter-spacing: 0.22px;
 }
 
-.connect {
-    width: 1200.0px;
+.connect-bg {
     background-color: var(--color-text);
+    border-radius: 70px;
+    height: 414.0px;
 }
 
 .connect-text {
@@ -321,6 +377,8 @@ body {
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0.22px;
+    border-radius: 18px;
+    border: none;
 }
 
 .numbers-section {
