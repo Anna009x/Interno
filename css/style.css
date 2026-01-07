@@ -146,6 +146,9 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    width: 450.0px;
+    margin-top: 40px;
+    margin-bottom: 42px;
 }
 
 .company-info-text {
@@ -154,6 +157,8 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    width: 531.0px;
+    margin-bottom: 29.8px;
 }
 
 .company-info-item-text {
@@ -162,6 +167,17 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    margin-bottom: 0;
+}
+
+.company-info-list::before {
+    content: "";
+    background-image: url(/images/phone.png), url(/images/companu-info-btn.png);
+    background-position: center, center;
+    background-repeat: no-repeat;
+    width: 93.0px;
+    height: 93.0px;
+    display: inline-block;
 }
 
 .company-info-btn {
@@ -174,6 +190,8 @@ body {
     font-style: normal;
     font-weight: 400;   
     letter-spacing: 0.72px;
+    margin-top: 10.2px;
+    margin-bottom: 36.61px;
 }
 
 .company-info-img {
@@ -189,6 +207,14 @@ body {
 
 .feedbacks-bg {
     background-color: var(--color-background);
+    border-radius: 70px;
+    padding: 103px 50px 120.39px 50px;
+}
+
+.feedbacks-item {
+    background-color: var(--color-white);
+    border-radius: 30px;
+    padding: 49.61px 30px 45px 35px;
 }
 
 .feedbacks-title {
@@ -198,6 +224,9 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    text-align: center;
+    margin-bottom: 45.61px;
+    width: 479.0px;
 }
 
 .feedbacks-img {
@@ -214,6 +243,8 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    margin-top: 5.39px;
+    margin-bottom: 0;
 }
 
 .feedbacks-text {
@@ -222,6 +253,8 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    margin-top: 25.39px;
+    margin-bottom: 0;
 }
 
 .feedbacks-block-text {
@@ -231,11 +264,8 @@ body {
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0.22px;
-}
-
-.feedbacks-block {
-    background-color: var(--color-white);
-    border-radius: 30px;
+    margin-top: 0;
+    margin-bottom: 6.61px;
 }
 
 .brands {
@@ -244,6 +274,7 @@ body {
 
 .projects {
     margin-bottom: 79.89px;
+    padding: 15px 10px 60px 10px;
 }
 
 .projects-title {
@@ -255,6 +286,7 @@ body {
     font-weight: 400;
     line-height: 62.4px;
     letter-spacing: 0.22px;
+    margin-bottom: 20px;
 }
 
 .projects-text {
@@ -265,6 +297,8 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    margin-bottom: 70.61px;
+    width: 786.0px;
 }
 
 .projects-img {
@@ -282,6 +316,8 @@ body {
     font-weight: 400;
     line-height: 37.5px;
     letter-spacing: 0.22px;
+    margin-top: 24.19px;
+    margin-bottom: 0;
 }
 
 .projects-item-text {
@@ -291,6 +327,8 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .projects-btn {
@@ -303,10 +341,50 @@ body {
 
 .numbers-section {
     margin-bottom: 130.02px;
+    padding: 139.98px 0 140.02px 0;
+    background-color: var(--color-background);
+}
+
+.numbers-item {
+    padding-top: 14px ;
+    padding-bottom: 10px;
+}
+
+.numbers-item::after {
+    content: "";
+    display:block;
+    background-image: url(/images/line.png);
+    width: 1.0px;
+    height: 195.0px;
+}
+
+.numbers {
+    color: var(--color-orange);
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 127.5px;
+    letter-spacing: 1.7px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.numbers-text {
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.22px;
 }
 
 .blogs {
     margin-bottom: 100.2px;
+    padding-top: 15px;
+    padding-bottom: 40.8px;
 }
 
 .blogs-title {
@@ -318,6 +396,7 @@ body {
     font-weight: 400;
     line-height: 62.4px;
     letter-spacing: 0.22px;
+    margin-bottom: 21px;
 }
 
 .blogs-text {
@@ -328,6 +407,14 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px; 
+    margin-bottom: 70px;
+    width: 589.0px;
+}
+
+.blogs-item {
+    padding-top: 21.02px;
+    padding-bottom: 40.59px;
+  
 }
 
 .blogs-img {
@@ -345,6 +432,7 @@ body {
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0.5px;
+    margin-top: 14.59px;
 }
 
 .blogs-item-text {
@@ -354,6 +442,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.22px;
+    margin-top: 34px;
+    margin-bottom: 55px;
 }
 
 .connect {
@@ -401,31 +491,6 @@ body {
     letter-spacing: 0.22px;
     border-radius: 18px;
     border: none;
-}
-
-.numbers-section {
-    background-color: var(--color-background);
-}
-
-.numbers {
-    color: var(--color-orange);
-    text-align: center;
-    font-family: "DM Serif Display";
-    font-size: 85px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 127.5px;
-    letter-spacing: 1.7px;
-}
-
-.numbers-text {
-    color: var(--color-grey);
-    text-align: center;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 33px;
-    letter-spacing: 0.22px;
 }
 
 .footer-logo {
