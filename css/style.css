@@ -446,6 +446,17 @@ body {
     margin-bottom: 55px;
 }
 
+.blogs-item-text::after {
+    content: "";
+    background-image: url(/images/projects-button.png), url( /images/companu-info-btn.png);
+    width: 52.0px;
+    height: 52.0px;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    border-radius: 100%;
+}
+
 .connect {
     margin-bottom: 79.8px;
     height: 414.0px;
@@ -460,12 +471,15 @@ body {
     font-weight: 400;
     line-height: 75px;
     letter-spacing: 0.22px;
+    margin-bottom: 9px;
 }
 
 .connect-bg {
     background-color: var(--color-text);
     border-radius: 70px;
     height: 414.0px;
+    padding-top: 100px;
+    padding-bottom: 95px;
 }
 
 .connect-text {
@@ -476,6 +490,8 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    margin-top: 0;
+    margin-bottom: 31px;
 }
 
 .connect-btn {
@@ -493,9 +509,15 @@ body {
     border: none;
 }
 
+.footer {
+    padding-top: 50px;
+    padding-bottom: ;
+}
+
 .footer-logo {
     width: 177.0px;
     height: 50.0px;
+    margin-bottom: 15px;
 }
 
 .footer-subtitle {
@@ -515,4 +537,46 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    width: 326.0px;
+    margin-top: 0;
+    margin-bottom: 9.8px;
 }
+
+.socials {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.icon {
+    width: 16.0px;
+    height: 17.0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.facebook {
+    background-image: url(/images/facebook.png);
+}
+
+.twitter {
+    background-image: url(/images/twitter.png);
+}
+
+.in {
+    background-image: url(/images/in.png);
+}
+
+.instagram {
+    background-image: url(/images/instagram.png);
+}
+
+/* .footer-text::after {
+    content: "";
+    background-image: url(/images/facebook.png), url(/images/twitter.png);
+    width: 10.0px;
+    height: 19.0px;
+    display: inline-block;
+    background-position: center;
+} */
