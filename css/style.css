@@ -20,6 +20,13 @@ body {
     margin-bottom: 18px;
 }
 
+.wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+     flex-wrap: nowrap;
+}
+
 .logo-img {
     margin-bottom: 12px;
 }
@@ -29,9 +36,15 @@ body {
     height: 50.0px;
 } 
 
+.box-logo {
+    display: flex;
+}
+
 .header-list {
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 40px;
 }
 
 .header-item-link {
@@ -58,6 +71,9 @@ body {
 .hero-container {
     padding-top: 195px;
     padding-bottom: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .hero-title {
@@ -99,8 +115,22 @@ body {
     margin-bottom: 100px;
 }
 
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    /* flex-shrink: calc(100%/3); */
+}
+
 .services-item {
     padding-top: 75px;
+    width: 400.0px;
+    height: 395.0px;
+    text-align: center;
+    flex-basis: 400px;
+
 }
 
 .services-title {
@@ -121,22 +151,34 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
+    line-height: 33px;
+    margin: 17px 0 35px 0;
+  
 }
 
 .services-link {
-    color: var(--color-grey);
+    width: 320.0px;
+    height: 47.0px;
+    padding: 20px 98px 0 98px;
+    border: none;
+    color:var(--color-grey);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.36px;
     text-align: center;
-    display: inline-block;
+    text-align: center;
 }
 
 .company-info {
     margin-bottom: 140.39px;
     padding-top: 26.8px;
     padding-bottom: 26.81px;
+}
+
+.company-info-wrap {
+    display: flex;
+    flex-direction: column;
 }
 
 .company-info-title {
@@ -192,6 +234,11 @@ body {
     letter-spacing: 0.72px;
     margin-top: 10.2px;
     margin-bottom: 36.61px;
+}
+
+.box-img {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .company-info-img {
