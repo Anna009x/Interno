@@ -22,7 +22,7 @@ body {
 
 .wrap {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
      flex-wrap: nowrap;
 }
@@ -178,8 +178,12 @@ body {
 
 .company-info-wrap {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 16px;
 }
+
 
 .company-info-title {
     color: var(--color-text);
@@ -209,7 +213,12 @@ body {
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.22px;
-    margin-bottom: 0;
+    margin: 0;
+}
+
+.company-info-list {
+    display: flex;
+    padding: 0;
 }
 
 .company-info-list::before {
@@ -220,6 +229,11 @@ body {
     width: 93.0px;
     height: 93.0px;
     display: inline-block;
+}
+
+.company-info-phone {
+    display: flex;
+    align-items: center;
 }
 
 .company-info-btn {
@@ -258,6 +272,12 @@ body {
     padding: 103px 50px 120.39px 50px;
 }
 
+.feedbacks-list {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
 .feedbacks-item {
     background-color: var(--color-white);
     border-radius: 30px;
@@ -274,6 +294,11 @@ body {
     text-align: center;
     margin-bottom: 45.61px;
     width: 479.0px;
+}
+
+.feedbacks-block {
+    display: flex;
+    flex-direction: column;
 }
 
 .feedbacks-img {
@@ -319,9 +344,27 @@ body {
     margin-bottom: 100px;
 }
 
+.brands-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .projects {
     margin-bottom: 79.89px;
     padding: 15px 10px 60px 10px;
+}
+
+/* .projects-wrap {
+    display: flex;
+} */
+
+.projects-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .projects-title {
@@ -367,6 +410,11 @@ body {
     margin-bottom: 0;
 }
 
+.projects-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .projects-item-text {
     color: var(--color-grey);
     font-size: 22px;
@@ -376,6 +424,12 @@ body {
     letter-spacing: 0.22px;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.projects-box-btn {
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
 }
 
 .projects-btn {
@@ -392,6 +446,13 @@ body {
     background-color: var(--color-background);
 }
 
+.numbers-list {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 0;
+}
+
 .numbers-item {
     padding-top: 14px ;
     padding-bottom: 10px;
@@ -399,7 +460,7 @@ body {
 
 .numbers-item::after {
     content: "";
-    display:block;
+    display: inline-block;
     background-image: url(/images/line.png);
     width: 1.0px;
     height: 195.0px;
