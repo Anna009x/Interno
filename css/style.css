@@ -111,8 +111,8 @@ body {
 }
 
 .services {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .services-list {
@@ -125,12 +125,11 @@ body {
 }
 
 .services-item {
-    padding-top: 75px;
+    padding: 75px 50px;
     width: 400.0px;
     height: 395.0px;
     text-align: center;
     flex-basis: 400px;
-
 }
 
 .services-title {
@@ -172,7 +171,6 @@ body {
 
 .company-info {
     margin-bottom: 140.39px;
-    padding-top: 26.8px;
     padding-bottom: 26.81px;
 }
 
@@ -219,11 +217,12 @@ body {
 .company-info-list {
     display: flex;
     padding: 0;
+    margin: 0;
 }
 
 .company-info-list::before {
     content: "";
-    background-image: url(/images/phone.png), url(/images/compan-info-btn.png);
+    background-image: url(/images/phone.png), url(/images/company-info-btn.png);
     background-position: center, center;
     background-repeat: no-repeat;
     width: 93.0px;
@@ -233,7 +232,8 @@ body {
 
 .company-info-phone {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
 }
 
 .company-info-btn {
@@ -294,11 +294,19 @@ body {
     text-align: center;
     margin-bottom: 45.61px;
     width: 479.0px;
+    margin: 0  auto;
+    margin-bottom: 43px;
 }
 
-.feedbacks-block {
+/* .feedbacks-block {
     display: flex;
     flex-direction: column;
+} */
+
+.box-feedbscks-img {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 .feedbacks-img {
@@ -348,6 +356,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 .projects {
@@ -387,8 +396,9 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
-    margin-bottom: 70.61px;
     width: 786.0px;
+    margin: 0 auto;
+    margin-bottom: 70.6px;
 }
 
 .projects-img {
@@ -410,11 +420,6 @@ body {
     margin-bottom: 0;
 }
 
-.projects-info {
-    display: flex;
-    flex-direction: column;
-}
-
 .projects-item-text {
     color: var(--color-grey);
     font-size: 22px;
@@ -426,10 +431,20 @@ body {
     margin-bottom: 0;
 }
 
+.projects-wrap2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .projects-box-btn {
     display: flex;
     justify-content: flex-end;
-    /* align-items: center; */
 }
 
 .projects-btn {
@@ -487,6 +502,7 @@ body {
     font-weight: 400;
     line-height: 33px;
     letter-spacing: 0.22px;
+    margin: 0;
 }
 
 .blogs {
@@ -517,12 +533,21 @@ body {
     letter-spacing: 0.22px; 
     margin-bottom: 70px;
     width: 589.0px;
+    margin: 0 auto;
+}
+
+.blogs-list {
+    display: flex;
+    gap: 20px;
 }
 
 .blogs-item {
     padding-top: 21.02px;
     padding-bottom: 40.59px;
-  
+    border: 1px solid;
+    width: 387.0px;
+    height: 515.0px;
+    border-radius: 45px 45px;
 }
 
 .blogs-img {
