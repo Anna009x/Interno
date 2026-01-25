@@ -234,7 +234,7 @@ body {
     background-repeat: no-repeat;
     width: 93.0px;
     height: 93.0px;
-    display: inline-block;
+    display: block;
 }
 
 .company-info-btn {
@@ -465,9 +465,9 @@ body {
 .numbers-item {
     padding-top: 14px ;
     padding-bottom: 10px;
-     border-right: 1px solid var(--color-orange);
-     width: 288.0px;
-height: 195.0px;
+    border-right: 1px solid var(--color-orange);
+    width: 288.0px;
+    height: 195.0px;
 }
 
 .numbers {
