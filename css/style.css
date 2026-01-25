@@ -229,7 +229,7 @@ body {
 
 .company-info-list::before {
     content: "";
-    background-image: url(/images/phone.png), url(/images/company-info-btn.png);
+    background-image: url(../images/phone.png), url(../images/company-info-btn.png);
     background-position: center, center;
     background-repeat: no-repeat;
     width: 93.0px;
