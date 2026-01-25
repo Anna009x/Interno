@@ -706,6 +706,11 @@ height: 195.0px;
     margin-top: 0;
 }
 
+.footer-item-text:hover {
+    color: var(--color-orange);
+    cursor: pointer;
+}
+
 .socials {
   display: flex;
   gap: 40px;
